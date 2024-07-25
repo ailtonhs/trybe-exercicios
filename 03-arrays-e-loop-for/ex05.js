@@ -3,7 +3,13 @@ const firstGame = [4, 8, 15, 16, 23, 42];
 
 //sorteio dos números
 for (let index = 0; index < 6; index += 1) {
-    lotteryNumbers.push(Math.ceil(Math.random() * 60));
+    let randomNumbers = (Math.ceil(Math.random() * 60));
+
+    if (lotteryNumbers.includes(randomNumbers)) {
+        index -= 1;
+    } else {
+        lotteryNumbers.push(randomNumbers)
+    }
 };
 
 // Comparação do sorteio com o meu jogo
