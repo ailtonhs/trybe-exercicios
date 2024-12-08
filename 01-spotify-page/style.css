@@ -115,3 +115,103 @@ header div {
     padding-bottom: 10px;
 }
 
+.section-chose-plan {
+    background-color: #efefef;
+    
+}
+
+.section-chose-plan div {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.section-chose-plan h2 {
+    font-size: 30px;
+    padding-top: 70px;
+}
+
+.section-chose-plan h3 {
+    font-size: 15px;
+    padding: 10px 0;
+
+}
+
+.credit-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.credit-cards img {
+    width: 25px;
+}
+
+.section-plan {
+    display: flex;
+}
+
+.plan-style {
+    background-color: #fff;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.678);
+    border-radius: 7px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 600px;
+    max-width: 200px;
+    font-size: 15px;
+}
+
+.free-month {
+    background-color: rgb(13, 114, 234);
+    color: #fff;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.unique-payment {
+    color: rgb(13, 114, 234);
+    border: 1px solid rgb(13, 114, 234);
+    border-radius: 2px;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: 900;
+}
+
+.price {
+    text-align: left;
+}
+
+.plan-style hr {
+    width: 100%;
+    margin: 10PX 0;
+}
+
+.plan-style ul {
+    text-align: left;
+    padding-left: 20px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    list-style-type: '✓ ';
+}
+
+.btn-comece-agora {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 35px;
+    border-radius: 100px;
+    border: 1px solid #000;
+    cursor: pointer;
+    margin: auto;
+}
+
+.conditions, .conditions a {
+    color: rgb(83, 83, 83);
+    font-size: 10px;
+}
+
+
+
+
