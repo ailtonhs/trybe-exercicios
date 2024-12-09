@@ -1,0 +1,274 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+header {
+    background-color: #000;
+    padding: 15px;
+
+    
+}
+
+header div {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.spotify-logo {
+    width: 150px;
+}
+
+.menu {
+    color: #fff;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu li:hover {
+    color: #1ed760;
+    cursor: pointer;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.section-premium {
+    background-color: rgb(29, 117, 222);
+    color: #fff;
+   
+
+}
+
+.section-premium div {
+    width: 80%;
+    margin: auto;
+}
+
+.section-premium h1 {
+    font-size: 40px;
+    padding: 40px 0;
+}
+
+.section-premium h2 {
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+#btn-comece-agora {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 35px;
+    border-radius: 100px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+#btn-comece-agora:hover {
+    padding: 20px 40px;
+}
+
+#btn-ver-plano {
+    background-color: rgb(29, 117, 222);
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 15px 35px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.section-premium p {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    font-size: 10px;
+}
+
+.section-premium a {
+    color: #fff;
+}
+
+.section-why-premium {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.section-why-premium h2 {
+    font-size: 30px;
+    padding: 70px 0;
+}
+
+.premium-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.premium-items img {
+    width: 120px;
+    padding-bottom: 20px;
+}
+
+.premium-items div {
+    padding: 0 40px 70px 40px;
+}
+
+.premium-items h4 {
+    padding-bottom: 10px;
+}
+
+.section-chose-plan {
+    background-color: #efefef;
+    
+}
+
+.section-chose-plan div {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.section-chose-plan h2 {
+    font-size: 30px;
+    padding-top: 70px;
+}
+
+.section-chose-plan h3 {
+    font-size: 15px;
+    padding: 10px 0;
+
+}
+
+.credit-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.credit-cards img {
+    width: 25px;
+}
+
+.section-plan {
+    display: flex;
+    height: 700px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.plan-style {
+    background-color: #fff;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.678);
+    border-radius: 7px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 600px;
+    max-width: 200px;
+    font-size: 10px;
+}
+
+.free-month {
+    background-color: rgb(13, 114, 234);
+    color: #fff;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.unique-payment {
+    color: rgb(13, 114, 234);
+    border: 1px solid rgb(13, 114, 234);
+    border-radius: 2px;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: 900;
+}
+
+.price {
+    text-align: left;
+}
+
+.plan-style hr {
+    width: 100%;
+    margin: 10PX 0;
+}
+
+.plan-style ul {
+    text-align: left;
+    padding-left: 20px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    list-style-type: '✓ ';
+}
+
+.btn-comece-agora {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 35px;
+    border-radius: 100px;
+    border: 1px solid #000;
+    cursor: pointer;
+    margin: auto;
+}
+
+.conditions, .conditions a {
+    color: rgb(83, 83, 83);
+    font-size: 10px;
+}
+
+footer {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    padding: 70px 10%;
+}
+
+footer div ul {
+    color: #919496;
+    list-style-type: none;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer li:nth-child(1) {
+    padding-bottom: 20px;
+}
+
+footer li {
+    padding: 10px 20px;
+    font-size: 10px;
+}
+
+footer img {
+    width: 150px;
+    padding-right: 15px;
+}
+
+footer i {
+    color: #fff;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+
+
