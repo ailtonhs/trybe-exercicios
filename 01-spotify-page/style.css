@@ -1,8 +1,17 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
 header {
@@ -29,6 +38,11 @@ header div {
     list-style-type: none;
     display: flex;
     align-items: center;
+}
+
+.menu li:hover {
+    color: #1ed760;
+    cursor: pointer;
 }
 
 .menu li {
@@ -64,6 +78,10 @@ header div {
     border-radius: 100px;
     border: 1px solid #000;
     cursor: pointer;
+}
+
+#btn-comece-agora:hover {
+    padding: 20px 40px;
 }
 
 #btn-ver-plano {
@@ -148,6 +166,9 @@ header div {
 
 .section-plan {
     display: flex;
+    height: 700px;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .plan-style {
@@ -160,7 +181,7 @@ header div {
     align-items: flex-start;
     height: 600px;
     max-width: 200px;
-    font-size: 15px;
+    font-size: 10px;
 }
 
 .free-month {
@@ -212,6 +233,42 @@ header div {
     font-size: 10px;
 }
 
+footer {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    padding: 70px 10%;
+}
+
+footer div ul {
+    color: #919496;
+    list-style-type: none;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer li:nth-child(1) {
+    padding-bottom: 20px;
+}
+
+footer li {
+    padding: 10px 20px;
+    font-size: 10px;
+}
+
+footer img {
+    width: 150px;
+    padding-right: 15px;
+}
+
+footer i {
+    color: #fff;
+    font-size: 20px;
+    padding: 0 10px;
+}
 
 
 
